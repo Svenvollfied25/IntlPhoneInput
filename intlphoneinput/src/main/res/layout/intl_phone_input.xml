@@ -17,5 +17,6 @@
         android:id="@+id/intl_phone_edit__phone"
         android:singleLine="true"
         android:maxLength="10"
+        android:background="#ffffff"
         android:inputType="phone" />
 </LinearLayout>
