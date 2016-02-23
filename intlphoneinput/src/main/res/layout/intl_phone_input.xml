@@ -2,12 +2,12 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent" android:layout_height="wrap_content"
-    android:orientation="horizontal">
+    android:orientation="horizontal"
+     android:background="@color/editTextBackgorund">
     <Spinner
         android:layout_width="45dp"
         android:paddingRight="1dp"
         android:paddingEnd="1dp"
-        android:background="@color/editTextBackgorund"
         android:layout_height="wrap_content"
         android:id="@+id/intl_phone_edit__country"
         android:dropDownWidth="350dp"
@@ -19,6 +19,5 @@
         android:singleLine="true"
         android:maxLength="10"
         android:padding="10dp"
-        android:background="@color/editTextBackgorund"
         android:inputType="phone" />
 </LinearLayout>
