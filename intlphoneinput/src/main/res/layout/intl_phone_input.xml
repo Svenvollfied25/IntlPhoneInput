@@ -10,7 +10,7 @@
         android:paddingEnd="1dp"
         android:layout_height="45dp"
         android:id="@+id/intl_phone_edit__country"
-        android:dropDownWidth="350dp"
+        android:dropDownWidth="300dp"
         tools:ignore="RtlSymmetry" />
     <EditText
         android:layout_width="match_parent"
